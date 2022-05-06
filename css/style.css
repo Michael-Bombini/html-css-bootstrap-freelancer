@@ -10,3 +10,10 @@ header nav ul  { display: flex; }
 header nav ul li {padding: 0 1rem; list-style: none;}
 header nav ul li a {display: inline-block; text-decoration: none; color: #fff; font-weight: bold; font-size: 1.1rem;}
 
+.jumbo { background: #1ABC9C; }
+
+
+.jumbo-profile img { max-width: 300px; }
+
+
+.carta img { max-width: 100% ; }
