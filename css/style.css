@@ -1,6 +1,7 @@
 /* @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"); */
-header { background: #2C3E50 ; }
-
+.primary { background: #1ABC9C; }
+.secondary { background: #2C3E50 ; }
+.tertiary { background: #3A546D; }
 
 nav {
     display: flex;
@@ -12,7 +13,7 @@ header nav ul  { display: flex; }
 header nav ul li {padding: 0 1rem; list-style: none;}
 header nav ul li a {display: inline-block; text-decoration: none; color: #fff; font-weight: bold; font-size: 1.1rem;}
 
-.primary { background: #1ABC9C; }
+
 
 
 .jumbo-profile img { max-width: 300px; }
