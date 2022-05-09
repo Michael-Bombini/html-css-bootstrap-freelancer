@@ -1,5 +1,6 @@
 /* @import url("https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"); */
 .primary { background: #1ABC9C; }
+.primary-t { color: #1ABC9C; text-decoration: none;}
 .secondary { background: #2C3E50 ; }
 .tertiary { background: #3A546D; }
 
@@ -13,14 +14,29 @@ header nav ul  { display: flex; }
 header nav ul li {padding: 0 1rem; list-style: none;}
 header nav ul li a {display: inline-block; text-decoration: none; color: #fff; font-weight: bold; font-size: 1.1rem;}
 
-
-
-
 .jumbo-profile img { max-width: 300px; }
-
-
 .carta img { max-width: 100% ; border-radius: 10px; }
 
-.bold {font-weight: bold;}
-
 .btn-download {background: transparent ; color: #fff; border-color: #fff; }
+
+.form-control {
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+}
+
+.form-floating > label {
+    padding-left: 0;
+}
+
+
+.location i {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}

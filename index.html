@@ -31,9 +31,19 @@
         <div class="container py-5 text-center">
             <div class="jumbo-profile">
                 <img class="mb-4" src="img/avatar.svg" alt="">
-                <h1 class="text-white pb-3">START BOOTSTRAP</h1>
-                <i class="fa-solid fa-star fa-2x text-white pb-3 mb-2"></i>
-                <div class="text-white">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</div>
+                <h1 class="text-white pb-3 display-3 fw-bold">START BOOTSTRAP</h1>
+
+                <div class="row mb-3">
+                    <div class="col-lg-4 col-md-3 col-sm-2  mx-auto">
+                      <div class="d-flex align-items-center">
+                        <div class="border-bottom flex-grow-1 border-3 border-white"></div>
+                        <i class="fa-solid fa-star fa-2x text-white mb-2" style="vertical-align: middle;"></i>
+                        <div class="border-bottom flex-grow-1 border-3 border-white"></div>
+                      </div>
+                    </div>
+                  </div>
+                <h5 class="text-white">GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</h5>
+                
             </div>
         </div>
      </div>
@@ -42,9 +52,21 @@
      <div class="container">
          <div class="portfolio text-center text-black mb-4">
              <div class="portfolio-heading mb-5">
-                <h1 class="text-dark pb-3">PORTFOLIO</h1>
-                <i class="fa-solid fa-star fa-2x text-dark"></i>
+                <h1 class="text-dark pb-3">PORTFOLIO</h1>    
+                <div class="row">
+                    <div class="col-lg-4 col-md-3 col-sm-2  mx-auto">
+                      <div class="d-flex align-items-center">
+                        <div class="border-bottom flex-grow-1 border-3 border-dark"></div>
+                        <i class="fa-solid fa-star fa-2x text-dark" style="vertical-align: middle;"></i>
+                        <div class="border-bottom flex-grow-1 border-3 border-dark"></div>
+                      </div>
+                    </div>
+                  </div>
              </div>
+
+
+             
+             
 
              <div>
                  <div class="row">
@@ -75,10 +97,18 @@
      <div class="container-fluid primary py-5">
          <div class="container text-center">
              <h1 class="text-white">ABOUT</h1>
-             <i class="fa-solid fa-star fa-2x text-white pb-3 mb-2"></i>
+             <div class="row mb-3">
+                <div class="col-lg-4 col-md-3 col-sm-2  mx-auto">
+                  <div class="d-flex align-items-center">
+                    <div class="border-bottom flex-grow-1 border-3 border-white"></div>
+                    <i class="fa-solid fa-star fa-2x text-white mb-2" style="vertical-align: middle;"></i>
+                    <div class="border-bottom flex-grow-1 border-3 border-white"></div>
+                  </div>
+                </div>
+              </div>
              <div class="row text-white pb-3">
-                 <div class="bold col-sm-12 col-md-6 p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis soluta excepturi debitis voluptate error recusandae vel accusantium atque asperiores alias minima, laudantium tenetur deserunt nulla, doloribus quas quos, animi iusto!</div>
-                 <div class="bold col-sm-12 col-md-6 p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis soluta excepturi debitis voluptate error recusandae vel accusantium atque asperiores alias minima, laudantium tenetur deserunt nulla, doloribus quas quos, animi iusto!</div>
+                 <div class="fw-bold col-sm-12 col-md-6 p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis soluta excepturi debitis voluptate error recusandae vel accusantium atque asperiores alias minima, laudantium tenetur deserunt nulla, doloribus quas quos, animi iusto!</div>
+                 <div class="fw-bold col-sm-12 col-md-6 p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis soluta excepturi debitis voluptate error recusandae vel accusantium atque asperiores alias minima, laudantium tenetur deserunt nulla, doloribus quas quos, animi iusto!</div>
              </div>
              <button class="btn btn-download"><i class="fa-solid fa-download"></i> Download</button>
          </div>
@@ -88,36 +118,57 @@
      <div class="container py-5">
          <div class="text-center">
             <h1 class="text-dark pb-3">CONTACT ME</h1>
-            <i class="fa-solid fa-star fa-2x text-dark"></i>
+            <div class="row">
+                <div class="col-lg-4 col-md-3 col-sm-2  mx-auto">
+                  <div class="d-flex align-items-center">
+                    <div class="border-bottom flex-grow-1 border-3 border-dark"></div>
+                    <i class="fa-solid fa-star fa-2x text-dark" style="vertical-align: middle;"></i>
+                    <div class="border-bottom flex-grow-1 border-3 border-dark"></div>
+                  </div>
+                </div>
+              </div>
         </div>
-        <form>
-            <div class="form-group py-2">
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
-            </div>
-            <div class="form-group py-2">
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email Address">
-            </div>
-            <div class="form-group py-2">
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
-            </div>
-            
-            <div class="form-group py-2">
-              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message" rows="2"></textarea>
-            </div>
+        <form action="" class="my-5">
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label class="fw-bold text-dark" for="floatingInput">Name</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label class="fw-bold text-dark" for="floatingInput">Email Address</label>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="floatingInput" placeholder="name@example.com">
+                <label class="fw-bold text-dark"  for="floatingInput">Phone Number</label>
+              </div>
+              <div class="form-floating mb-3">
+                <textarea class="form-control" placeholder="placeholder" id="floatingTextarea" style="height: 150px"></textarea>
+                <label class="fw-bold text-dark" for="floatingTextarea">Message</label>
+              </div>
 
-            <div class="btn primary text-white">Send</div>
-
-          </form>
+              <button class="btn primary text-white">Send</button>
+          </form>     
      </div>
 
 
      <!-- LOCATION -->
      <div class="container-fluid tertiary">
          <div class="container py-3">
-             <div class="row">
-            <div class="bold col-sm-12 col-md-4 p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis soluta excepturi debitis voluptate error recusandae vel accusantium atque asperiores alias minima, laudantium tenetur deserunt nulla, doloribus quas quos, animi iusto!</div>
-            <div class="bold col-sm-12 col-md-4 p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis soluta excepturi debitis voluptate error recusandae vel accusantium atque asperiores alias minima, laudantium tenetur deserunt nulla, doloribus quas quos, animi iusto!</div>
-            <div class="bold col-sm-12 col-md-4 p-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis soluta excepturi debitis voluptate error recusandae vel accusantium atque asperiores alias minima, laudantium tenetur deserunt nulla, doloribus quas quos, animi iusto!</div>
+             <div class="row align-items-center location">
+            <div class="fw-bold col-sm-12 col-md-4 p-3 text-center text-white">
+                <h5>LOCATION</h5>
+                <h6>2215 John Daniel Drive Clark, MO 54243</h6>
+            </div>
+            <div class="fw-bold col-sm-12 col-md-4 p-3 text-center text-white">
+                <h5>AROUND THE WEB</h5>
+                <i class="fa-brands fa-facebook-f mx-1"></i>
+                <i class="fa-brands fa-google-plus-g mx-1"></i>
+                <i class="fa-brands fa-twitter mx-1"></i>
+                <i class="fa-brands fa-linkedin-in mx-1"></i>
+            </div>
+            <div class="fw-bold col-sm-12 col-md-4 p-3 text-center text-white">
+                <h5>LOCATION</h5>
+                <h6>Freelance is a free to use, open source Bootstrap theme created by <a href="#" class="primary-t">Start Bootstrap</a></h6>
             </div>    
         </div>
      </div>
